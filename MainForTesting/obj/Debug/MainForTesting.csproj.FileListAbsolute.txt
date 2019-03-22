@@ -1,0 +1,15 @@
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\MainForTesting.exe.config
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\MainForTesting.exe
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\MainForTesting.pdb
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\ProiectAuto.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\EntityFramework.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\ProiectAuto.pdb
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\ProiectAuto.dll.config
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\EntityFramework.xml
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\obj\Debug\MainForTesting.csprojAssemblyReference.cache
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\obj\Debug\MainForTesting.csproj.CoreCompileInputs.cache
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\obj\Debug\MainForTesting.csproj.CopyComplete
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\obj\Debug\MainForTesting.exe
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\obj\Debug\MainForTesting.pdb
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\EntityFramework.SqlServer.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\MainForTesting\bin\Debug\EntityFramework.SqlServer.xml

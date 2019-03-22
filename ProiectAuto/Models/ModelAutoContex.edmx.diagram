@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e7165ea7f0b460ba8765a7b331f9ab8" Name="Diagram1" ZoomLevel="94" >
+        <EntityTypeShape EntityType="ModelAutoContex.Client" Width="1.5" PointX="0.75" PointY="3.625" />
+        <EntityTypeShape EntityType="ModelAutoContex.Auto" Width="1.5" PointX="3" PointY="3.875" />
+        <EntityTypeShape EntityType="ModelAutoContex.Sasiu" Width="1.5" PointX="5.25" PointY="1.25" />
+        <EntityTypeShape EntityType="ModelAutoContex.Mecanic" Width="1.5" PointX="9.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ModelAutoContex.Material" Width="1.5" PointX="14.25" PointY="3.75" />
+        <EntityTypeShape EntityType="ModelAutoContex.Imagine" Width="1.5" PointX="9.75" PointY="6.625" />
+        <EntityTypeShape EntityType="ModelAutoContex.Operatie" Width="1.5" PointX="12" PointY="3.75" />
+        <EntityTypeShape EntityType="ModelAutoContex.Comanda" Width="1.5" PointX="5.25" PointY="4.875" />
+        <EntityTypeShape EntityType="ModelAutoContex.DetaliuComanda" Width="1.625" PointX="7.5" PointY="5.375" />
+        <AssociationConnector Association="ModelAutoContex.ClientAuto" />
+        <AssociationConnector Association="ModelAutoContex.AutoSasiu" />
+        <AssociationConnector Association="ModelAutoContex.DetaliuComandaMecanic" />
+        <AssociationConnector Association="ModelAutoContex.MecanicOperatie" />
+        <AssociationConnector Association="ModelAutoContex.OperatieMaterial" />
+        <AssociationConnector Association="ModelAutoContex.DetaliuComandaImagine" />
+        <AssociationConnector Association="ModelAutoContex.AutoComanda" />
+        <AssociationConnector Association="ModelAutoContex.ComandaDetaliuComanda" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,12 @@
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\ProiectAuto.dll.config
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\ProiectAuto.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\ProiectAuto.pdb
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\EntityFramework.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\EntityFramework.SqlServer.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\EntityFramework.xml
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\bin\Debug\EntityFramework.SqlServer.xml
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\obj\Debug\ProiectAuto.csprojAssemblyReference.cache
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\obj\Debug\ProiectAuto.csproj.CoreCompileInputs.cache
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\obj\Debug\ProiectAuto.csproj.CopyComplete
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\obj\Debug\ProiectAuto.dll
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\obj\Debug\ProiectAuto.pdb
