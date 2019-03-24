@@ -144,6 +144,7 @@
     <NavigationProperty Name="Mecanics" Relationship="ModelAutoContex.DetaliuComandaMecanic" FromRole="DetaliuComanda" ToRole="Mecanic" />
     <NavigationProperty Name="Imagines" Relationship="ModelAutoContex.DetaliuComandaImagine" FromRole="DetaliuComanda" ToRole="Imagine" />
     <NavigationProperty Name="Comanda" Relationship="ModelAutoContex.ComandaDetaliuComanda" FromRole="DetaliuComanda" ToRole="Comanda" />
+    <Property Name="esteStearsa" Type="String" Nullable="false" />
   </EntityType>
   <Association Name="ClientAuto">
     <End Type="ModelAutoContex.Client" Role="Client" Multiplicity="1" />

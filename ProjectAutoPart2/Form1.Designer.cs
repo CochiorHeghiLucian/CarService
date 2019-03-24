@@ -45,6 +45,7 @@
             this.clientsLabel = new System.Windows.Forms.Label();
             this.carLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.autoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
@@ -60,6 +61,7 @@
             this.listBox1.Size = new System.Drawing.Size(489, 433);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox1.DoubleClick += new System.EventHandler(this.populateCars);
             // 
             // clientsBindingSource1
             // 
@@ -85,9 +87,9 @@
             // 
             this.NewClient.Location = new System.Drawing.Point(179, 521);
             this.NewClient.Name = "NewClient";
-            this.NewClient.Size = new System.Drawing.Size(120, 34);
+            this.NewClient.Size = new System.Drawing.Size(141, 34);
             this.NewClient.TabIndex = 2;
-            this.NewClient.Text = "New client";
+            this.NewClient.Text = "Add/update/remove client";
             this.NewClient.UseVisualStyleBackColor = true;
             this.NewClient.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -134,6 +136,7 @@
             this.carListbox.Name = "carListbox";
             this.carListbox.Size = new System.Drawing.Size(329, 433);
             this.carListbox.TabIndex = 5;
+            this.carListbox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.selectedACertainCar);
             // 
             // comandaListbox
             // 
@@ -173,11 +176,22 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Comenzi:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(339, 521);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(172, 34);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Add/update/remove car or sasiu";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // CarService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 572);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.carLabel);
             this.Controls.Add(this.clientsLabel);
@@ -219,6 +233,7 @@
         private System.Windows.Forms.Label clientsLabel;
         private System.Windows.Forms.Label carLabel;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

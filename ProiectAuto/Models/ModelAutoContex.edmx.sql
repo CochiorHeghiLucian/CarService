@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 03/19/2019 21:15:45
+-- Date Created: 03/24/2019 18:35:11
 -- Generated from EDMX file: F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProiectAuto\Models\ModelAutoContex.edmx
 -- --------------------------------------------------
 
@@ -168,7 +168,8 @@ GO
 
 -- Creating table 'DetaliuComandas'
 CREATE TABLE [dbo].[DetaliuComandas] (
-    [DetaliuComandaId] int IDENTITY(1,1) NOT NULL
+    [DetaliuComandaId] int IDENTITY(1,1) NOT NULL,
+    [esteStearsa] nvarchar(max)  NOT NULL
 );
 GO
 

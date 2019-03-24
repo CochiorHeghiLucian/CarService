@@ -46,7 +46,7 @@ namespace ProiectAuto.Repository
             detaliuComanda1.Mecanics = detaliuComanda.Mecanics;
             detaliuComanda1.Imagines = detaliuComanda.Imagines;
             detaliuComanda1.Comanda = detaliuComanda.Comanda;
-
+            detaliuComanda1.esteStearsa = detaliuComanda.esteStearsa;
 
             db.SaveChanges();
 

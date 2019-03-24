@@ -136,6 +136,7 @@
       <PropertyRef Name="DetaliuComandaId" />
     </Key>
     <Property Name="DetaliuComandaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="esteStearsa" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <Association Name="ClientAuto">
     <End Role="Client" Type="ModelAutoContex.Store.Clients" Multiplicity="1" />

@@ -93,6 +93,7 @@
       <EntityTypeMapping TypeName="IsTypeOf(ModelAutoContex.DetaliuComanda)">
         <MappingFragment StoreEntitySet="DetaliuComandas">
           <ScalarProperty Name="DetaliuComandaId" ColumnName="DetaliuComandaId" />
+          <ScalarProperty Name="esteStearsa" ColumnName="esteStearsa" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

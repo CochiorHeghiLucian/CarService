@@ -53,10 +53,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCar.Designer.cs">
+      <DependentUpon>AddNewCar.cs</DependentUpon>
+    </Compile>
     <Compile Include="AutoDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AutoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CreateComandaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateComandaForm.Designer.cs">
+      <DependentUpon>CreateComandaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -77,6 +89,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewCar.resx">
+      <DependentUpon>AddNewCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateComandaForm.resx">
+      <DependentUpon>CreateComandaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

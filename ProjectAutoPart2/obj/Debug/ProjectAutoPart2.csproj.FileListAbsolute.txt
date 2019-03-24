@@ -17,3 +17,5 @@ F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\obj\Debug\Pro
 F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\bin\Debug\EntityFramework.SqlServer.dll
 F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\bin\Debug\EntityFramework.SqlServer.xml
 F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\obj\Debug\ProjectAutoPart2.NewUserForm.resources
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\obj\Debug\ProjectAutoPart2.AddNewCar.resources
+F:\Faculta2\TSP.NET\ProiectPrimaParte\ProiectAuto\ProjectAutoPart2\obj\Debug\ProjectAutoPart2.CreateComandaForm.resources

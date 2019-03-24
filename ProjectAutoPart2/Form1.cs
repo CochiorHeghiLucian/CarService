@@ -23,7 +23,7 @@ namespace ProjectAutoPart2
             clientRepository = new ClientRepository();
             clients = clientRepository.GetAll();
 
-            foreach(Client client in clients)
+            foreach (Client client in clients)
             {
                 string listboxStr = client.Nume + " " + client.Prenume + " | " + client.Telefon + " | " + client.Email + " | " + client.Judet + " | " + client.Localitate;
                 listBox1.Items.Add(listboxStr);
@@ -34,7 +34,7 @@ namespace ProjectAutoPart2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             NewUserForm newUserForm = new NewUserForm();
             newUserForm.ShowDialog();
         }
@@ -74,7 +74,7 @@ namespace ProjectAutoPart2
         {
             string inputText = textBox1.Text;
             listBox1.Items.Clear();
-            foreach(Client client in clients)
+            foreach (Client client in clients)
             {
                 if (client.Telefon.Equals(inputText))
                 {
@@ -82,7 +82,99 @@ namespace ProjectAutoPart2
                     listBox1.Items.Add(listboxStr);
                 }
             }
-            
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AddNewCar addNewCarForm = new AddNewCar();
+            addNewCarForm.ShowDialog();
+        }
+
+        private void populateCars(object sender, EventArgs e)
+        {
+            string txt = listBox1.SelectedItem.ToString();
+            Client client = findClientByTelefon(getPhoneNumber(txt));
+            carListbox.Items.Clear();
+            foreach (Auto auto in client.Autoes)
+            {
+                string listboxStr = auto.NumarAuto + " | " + auto.SerieSasiu + " | " + auto.Sasiu.CodSasiu + " | " + auto.Sasiu.Denumire;
+                carListbox.Items.Add(listboxStr);
+            }
+            // MessageBox.Show(getPhoneNumber(txt));
+        }
+
+        private string getPhoneNumber(string listBoxItemText)
+        {
+            var phoneNumber = new StringBuilder("");
+            int i = 0;
+
+            while (listBoxItemText[i] != '|')
+            {
+                //phoneNumber.Append(listBoxItemText[i]);
+                i++;
+            }
+            i = i + 2;
+            while (listBoxItemText[i] != ' ')
+            {
+                phoneNumber.Append(listBoxItemText[i]);
+                i++;
+            }
+
+            return phoneNumber.ToString();
+        }
+
+        private Client findClientByTelefon(string phoneNumber)
+        {
+
+            foreach (Client client in clientRepository.GetAll())
+            {
+                if (client.Telefon.Equals(phoneNumber))
+                {
+                    return client;
+                }
+            }
+            return null;
+        }
+
+        private void selectedACertainCar(object sender, MouseEventArgs e)
+        {
+            string carNumber = getCarNumber(carListbox.SelectedItem.ToString());
+            string userPhoneNumber = getPhoneNumber(listBox1.SelectedItem.ToString());
+            //MessageBox.Show(carNumber);
+            //MessageBox.Show(userPhoneNumber);
+
+            Client client = findClientByTelefon(userPhoneNumber);
+            Auto auto = findAutoByAutoNumber(carNumber, client.Autoes);
+
+            CreateComandaForm createComandaForm = new CreateComandaForm(auto);
+            createComandaForm.ShowDialog();
+
+        }
+
+        private string getCarNumber(string txt)
+        {
+            var result = new StringBuilder("");
+            int i = 0;
+            while (txt[i] != ' ' || txt[i + 1] != '|')
+            {
+                result.Append(txt[i]);
+                i++;
+            }
+
+            return result.ToString();
+        }
+
+        private Auto findAutoByAutoNumber(string autoNumber, ICollection<Auto> autos)
+        {
+            foreach (Auto auto in autos)
+            {
+                if (auto.NumarAuto.Equals(autoNumber))
+                {
+                    return auto;
+                }
+            }
+            return null;
         }
     }
 }

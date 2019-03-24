@@ -22,6 +22,7 @@ namespace ProiectAuto.Models
         }
     
         public int DetaliuComandaId { get; set; }
+        public string esteStearsa { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Mecanic> Mecanics { get; set; }
